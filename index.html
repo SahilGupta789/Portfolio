@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu"></i>
+        <nav class="navbar">
+            <a href="#home" style="--clr:1" class="active">Home</a>
+            <a href="#about" style="--clr:2">About</a>
+            <a href="#services" style="--clr:3">Services</a>
+            <a href="#contact" style="--clr:4">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-detail">
+            <h3>Hello It's Me</h3>
+            <h1>Sahil Gupta</h1>
+            <h3>And I'm <span class="textline">Frontend developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sed a vitae ab molestiae quas?</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="sh.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="sh.png" alt="">
+        </div>
+        <div class="about-section">
+            <h2 class="allheading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure facilis optio recusandae vero
+                unde!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="allheading">Our <span>Services</span></h2>
+        <div class="services-section">
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur quis vel obcaecati a
+                    architecto accusamus assumenda dignissimos distinctio aperiam hic.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxl-adobe'></i>
+                <h3>Graphic Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit debitis doloribus qui libero!
+                    Ducimus cupiditate ab earum distinctio odio facere.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="allheading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="FullName">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject For">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="text">
+            <p>Copyright@2023 by Sahil Gupta || All Right Reserved</p>
+        </div>
+        <div class="footerUp">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
